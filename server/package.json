@@ -1,0 +1,24 @@
+{
+  "name": "cat-card-game",
+  "version": "1.0.0",
+  "description": "An assignment project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Grenish/cat-card-game.git"
+  },
+  "keywords": [
+    "nodejs",
+    "expressjs",
+    "database"
+  ],
+  "author": "Grenish Rai",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Grenish/cat-card-game/issues"
+  },
+  "homepage": "https://github.com/Grenish/cat-card-game#readme"
+}
