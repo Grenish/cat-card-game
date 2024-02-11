@@ -1,0 +1,48 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "Cheri Liney";
+  src: url("../fonts/CheriLiney.woff2") format("woff2"),
+    url("../fonts/CheriLiney.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Cheri";
+  src: url("../fonts/Cheri.woff2") format("woff2"),
+    url("../fonts/Cheri.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.cheri {
+  font-family: "Cheri Liney", cursive;
+}
+
+.cheri-regular {
+  font-family: "Cheri", cursive;
+}
+
+.cat {
+  background-image: url("./assets/cat-back.svg");
+  /* background-size: cover; */
+  background-position: bottom;
+  background-repeat: no-repeat;
+}
+
+.game-button {
+  border-radius: 28% 72% 16% 84% / 56% 43% 57% 44%;
+  transition: border-radius 0.5s;
+}
+.game-text {
+  border-radius: 28% 72% 16% 84% / 56% 43% 57% 44%;
+}
+
+.game-button:hover {
+  border-radius: 76% 24% 83% 17% / 27% 61% 39% 73%;
+}
