@@ -1,4 +1,4 @@
-import catback from "./catback.svg";
+import catback from "./cat-back.svg";
 import animcat from "./cat.json";
 import cat from "./cat.svg";
 import animcat2 from "./cute-cat.json";
