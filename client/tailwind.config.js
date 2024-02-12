@@ -3,11 +3,12 @@ export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
     extend: {
-      colors:{
-        'goofy-1': "#FFA500",
-        'goofy-2' : "#ffe49a",
-        'goofy-primary' : "#2c2c2c",
-      }
+      colors: {
+        "goofy-1": "#FFA500",
+        "goofy-2": "#ffe49a",
+        "goofy-primary": "#2c2c2c",
+        "goofy-3": "#1369a0",
+      },
     },
   },
   plugins: [],
