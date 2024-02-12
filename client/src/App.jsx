@@ -9,7 +9,10 @@ const App = () => {
   };
 
   return (
-    <>{name ? <Game name={name} /> : <Start onStart={handleStartGame} />}</>
+    <>
+    {name ? <Game name={name} /> : <Start onStart={handleStartGame} />}
+    {/* <Game /> */}
+    </>
   );
 };
 
